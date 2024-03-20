@@ -2,8 +2,8 @@
   "name": "wasm-study",
   "version": "0.0.1",
   "scripts": {
-    "serve": "webpack-dev-server",
-    "wasm-publish": "npm publish ./pkg"
+    "serve": "npm i @load28/wasm-study@latest && webpack-dev-server",
+    "wasm-publish": "cd ./pkg && npm publish"
   },
   "devDependencies": {
     "webpack": "^4.25.1",
@@ -11,6 +11,6 @@
     "webpack-dev-server": "^3.1.10"
   },
   "dependencies": {
-    "@load28/wasm-study": "0.1.1"
+    "@load28/wasm-study": "^1.0.0"
   }
 }
